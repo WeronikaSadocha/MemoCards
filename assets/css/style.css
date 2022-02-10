@@ -1,0 +1,131 @@
+#planet {
+  width: 520px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.informations {
+  float: right;
+  width: 400px;
+  margin-top: 12%;
+  margin-right: 15%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+input[type=email] {
+  width: 360px;
+  font-family: azo-sans-web, sans-serif;
+  background: linear-gradient(74deg, #ffa8b3 50%, #ffaf3e 100%);
+  height: 30px;
+  border: none;
+  margin: 10px;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+
+input[type=password] {
+  width: 360px;
+  font-family: azo-sans-web, sans-serif;
+  background: linear-gradient(74deg, #ffa8b3 50%, #ffaf3e 100%);
+  height: 30px;
+  border: none;
+  margin: 10px;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+
+.btn {
+  background: #ceb1e1;
+  border: none;
+  margin-right: 15px;
+  padding: 10px;
+  font-family: azo-sans-web, sans-serif;
+  border-radius: 15px;
+}
+
+.mt-4 {
+  float: right;
+}
+
+h3 {
+  margin: 10px;
+}
+
+#terms-and-conditions {
+  font-size: 12px;
+}
+
+body {
+  margin: 0px;
+  background: linear-gradient(74deg, #ceb1e1 100%, #ffa8b3 50%, #ffaf3e 100%);
+  font-family: azo-sans-web, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  background-color: white;
+  padding: 1px;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+}
+
+ul#navbar-links li {
+  list-style: none;
+  display: inline;
+}
+
+#navbar-links2 {
+  float: right;
+  margin-right: 50px;
+}
+
+.singular-link {
+  margin-left: 100px;
+}
+
+footer {
+  font-size: 12px;
+  font-weight: lighter;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 100%;
+  text-align: right;
+}
+
+.custom-shape-divider-bottom-1644256186 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1644256186 svg {
+  position: relative;
+  display: block;
+  width: calc(148% + 1.3px);
+  height: 100px;
+}
+
+.shape-fill {
+  fill: #FFFFFF;
+}
+
+.footer-wave {
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/*# sourceMappingURL=style.css.map */

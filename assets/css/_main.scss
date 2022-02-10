@@ -1,0 +1,58 @@
+
+#planet{
+    width:520px;
+    height: auto;
+    margin-top: 50px;
+    margin-left:100px;
+}
+.informations{
+    float:right;
+    width:400px;
+    margin-top: 12%;
+    margin-right: 15%;
+    background-color: white;
+    padding:20px;
+    border-radius: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   
+  }
+
+input[type=email]{
+    width: 360px;
+    font-family: azo-sans-web, sans-serif;
+    background: linear-gradient(74deg, #ffa8b3 50%, #ffaf3e 100%); 
+    height: 30px;
+    border: none;
+    margin:10px;
+    padding-left:10px;
+    border-radius: 20px;
+}
+
+input[type=password]{
+    width: 360px;
+    font-family: azo-sans-web, sans-serif;
+    background: linear-gradient(74deg, #ffa8b3 50%, #ffaf3e 100%); 
+    height: 30px;
+    border: none;
+    margin:10px;
+    padding-left:10px;
+    border-radius: 20px;
+
+}
+.btn{
+    background: rgba(206,177,225,1);
+    border:none;
+    margin-right:15px;
+    padding:10px;
+    font-family: azo-sans-web, sans-serif;
+    border-radius: 15px;
+}
+.mt-4{
+    float: right;
+}
+h3{
+    margin:10px;
+}
+#terms-and-conditions{
+    font-size: 12px;
+}
