@@ -18,24 +18,23 @@ nav {
           box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+.navbar-expand-lg .navbar-collapse{
+  display: flex!;
+  justify-content: right;
+  font-size: 18px;
+  color:black;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: black;
+}
+a.nav-link{
+  color:black;
+  margin-right:20px;
+}
 #logo {
   width: 150px;
   height: auto;
-}
-
-ul#navbar-links li {
-  list-style: none;
-  display: inline;
-}
-
-#navbar-links2 {
-  float: right;
-  margin-right: 50px;
-
-}
-
-.singular-link {
-  margin-left: 100px;
+  margin-left: 30px;
 }
 
 footer {
@@ -47,37 +46,36 @@ footer {
   width: 100%;
   text-align: center;
 
+
 }
 #footer-no-wave{
     background-color: white;
-    margin:0;
     list-style: none;
+    margin:0;
+    padding-bottom: 20px;
+
 }
 
-.custom-shape-divider-bottom-1644584394 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    margin-top: 100%;
+.custom-shape-divider-bottom-1644762129 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1644584394 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    bottom:0;
-    height: 50px;
-    transform: rotateY(180deg);
-
+.custom-shape-divider-bottom-1644762129 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 10px;
 }
 
 .shape-fill {
-    fill: #FFFFFF;
+  fill: #FFFFFF;
 }
-
 .footer-wave {
   -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
           box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;

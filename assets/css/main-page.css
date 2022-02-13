@@ -45,7 +45,7 @@
   
   @media (max-width: 600px) {
     .informations {
-      width: 100%;
+      width: 320px;
       background-color: white;
       padding: 20px;
       border-radius: 30px;
@@ -134,5 +134,11 @@
         justify-content: right;
      
     }
+    input[type=email]{
+      width:460px;
+  }
+  input[type=password]{
+      width:460px;
+  }
 
   }
