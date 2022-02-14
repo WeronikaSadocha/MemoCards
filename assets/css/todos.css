@@ -1,0 +1,32 @@
+.todos{
+    position: absolute;
+    
+}
+.todos-input textarea {
+    width: 60vh;
+    min-height:10vh ;
+    border: none;
+}
+.todos-input textarea:active {
+    border: none;
+}
+h2{
+    background: linear-gradient(74deg, #ffa8b3 50%, #ffaf3e 100%);  
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.form-group{
+    text-align: center;
+}
+label{
+    margin-bottom: 10px;
+}
+.center-content{
+    display: flex;
+    justify-content: center;
+    margin:20px
+}
