@@ -3,13 +3,18 @@
     
 }
 .todos-input textarea {
-    width: 60vh;
-    min-height:10vh ;
+    width: 50vh;
+   height: 30px;
     border: none;
+    
 }
-.todos-input textarea:active {
+.todos-input textarea:focus {
     border: none;
+    box-shadow: none;
+    outline:0;
+ 
 }
+
 h2{
     background: linear-gradient(74deg, #ffa8b3 50%, #ffaf3e 100%);  
     font-weight: bold;
@@ -29,4 +34,35 @@ label{
     display: flex;
     justify-content: center;
     margin:20px
+}
+#flex-todo-imput{
+    display: flex;
+    background-color: white;
+    border-top-right-radius: 20px;
+    margin-bottom:50px;
+}
+
+.submit-button{
+border: none;
+background-color: white;
+border-top-right-radius: 20px;
+padding-right: 20px;
+padding-left:10px;
+}
+.submit-button:hover{
+    background-color:#ffaf3e;  
+    color:white;
+}
+.singular-todo{
+    display:flex;
+    background-color:white;
+    width: 100%;
+    margin-top:20px
+}
+ul{
+padding: 0px;
+}
+.todo-singular-content{
+    width: 95%;
+    padding:10px;
 }

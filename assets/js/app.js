@@ -1,10 +1,7 @@
 var app= new Vue({
     el:'#app',
     data:{
-        
-
-        todaysDate:"", 
-        todaysTime:"",
+        todos:[]
     },
     mounted() {
         let today= new Date();
@@ -12,7 +9,4 @@ var app= new Vue({
         this.todaysTime= today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
     },
     
-   
- 
-
 })

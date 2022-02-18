@@ -34,7 +34,6 @@ Vue.component('navbar_and_sidebar', {
             </ul>
         </div>
     </div>
-    </div>
   `,
     
 data() {
@@ -46,7 +45,7 @@ data() {
 
 methods: {
     toggleTimeOut(){
-        setTimeout(() => this.isActiveTimeout = !this.isActiveTimeout, 500);
+        setTimeout(() => this.isActiveTimeout = !this.isActiveTimeout, 200);
     }
 },
 
