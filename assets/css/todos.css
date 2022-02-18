@@ -40,6 +40,8 @@ label{
     background-color: white;
     border-top-right-radius: 20px;
     margin-bottom:50px;
+    -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .submit-button{
@@ -57,7 +59,11 @@ padding-left:10px;
     display:flex;
     background-color:white;
     width: 100%;
-    margin-top:20px
+    margin-top:20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 ul{
 padding: 0px;
@@ -65,4 +71,20 @@ padding: 0px;
 .todo-singular-content{
     width: 95%;
     padding:10px;
+}
+.delete-todo{
+    background: none;
+    border: none;
+    font-size: 32px;
+    width: 50px;
+   
+}
+.fa-circle-check{
+    color:#ffa8b3;
+ 
+    
+}
+.fa-circle-check:hover{
+   color: #ceb1e1;
+    
 }

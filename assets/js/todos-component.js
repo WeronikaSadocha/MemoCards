@@ -4,7 +4,7 @@ Vue.component('todos', {
 <div class= center-content>
     <div class="todos">
         <form class="todos-input" @submit.prevent="onSubmit">
-            <h2>{{todaysDate}} {{todaysTime}}</h2>
+            <h2>{{todaysDate}}</h2>
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">What do you have to do today?</label>
                 <div id=flex-todo-imput>
@@ -16,7 +16,7 @@ Vue.component('todos', {
         <ul>
         <li class="singular-todo" v-for="display_todo in display_todos">
             <p class= "todo-singular-content">{{ display_todo }}</p>
-            <button class="delete-todo">X</button>
+            <button class="delete-todo"><i class="fa-solid fa-circle-check"></i></button>
         </li>
         </ul>
     </div>
